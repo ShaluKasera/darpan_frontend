@@ -1,4 +1,4 @@
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ;
 
 export const HERO_API = `${API_BASE_URL}/homePageImage`
 export const STUDENT_API = `${API_BASE_URL}/students`;
